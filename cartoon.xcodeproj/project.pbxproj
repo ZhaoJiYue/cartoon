@@ -10,13 +10,15 @@
 		3C9A6EB243F4E53A7F03A7A2 /* Pods_cartoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71169B31210CD6EF269D168E /* Pods_cartoon.framework */; };
 		ABE45117F64EEA1C71384BE9 /* Pods_cartoon_cartoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A2DEBD39DF319AB063434D /* Pods_cartoon_cartoonUITests.framework */; };
 		BFF2BAE62491D479007F38B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BAE52491D479007F38B6 /* AppDelegate.swift */; };
-		BFF2BAE82491D479007F38B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BAE72491D479007F38B6 /* SceneDelegate.swift */; };
-		BFF2BAEA2491D479007F38B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BAE92491D479007F38B6 /* ViewController.swift */; };
 		BFF2BAED2491D479007F38B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF2BAEB2491D479007F38B6 /* Main.storyboard */; };
 		BFF2BAEF2491D47A007F38B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF2BAEE2491D47A007F38B6 /* Assets.xcassets */; };
 		BFF2BAF22491D47A007F38B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF2BAF02491D47A007F38B6 /* LaunchScreen.storyboard */; };
 		BFF2BAFD2491D47A007F38B6 /* cartoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BAFC2491D47A007F38B6 /* cartoonTests.swift */; };
 		BFF2BB082491D47A007F38B6 /* cartoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BB072491D47A007F38B6 /* cartoonUITests.swift */; };
+		BFF2BB6D249201A6007F38B6 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BB64249201A6007F38B6 /* BaseController.swift */; };
+		BFF2BB6F249201A6007F38B6 /* NaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BB66249201A6007F38B6 /* NaviController.swift */; };
+		BFF2BB71249201A6007F38B6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BB68249201A6007F38B6 /* TabBarController.swift */; };
+		BFF2BBA72492042B007F38B6 /* BookrackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BB822492042A007F38B6 /* BookrackVC.swift */; };
 		FF7843D43D6170FDB7D659C4 /* Pods_cartoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BFCE321E0D25EAF446DDC2 /* Pods_cartoonTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,8 +49,6 @@
 		A9BFCE321E0D25EAF446DDC2 /* Pods_cartoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cartoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF2BAE22491D479007F38B6 /* cartoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cartoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF2BAE52491D479007F38B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFF2BAE72491D479007F38B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFF2BAE92491D479007F38B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BFF2BAEC2491D479007F38B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFF2BAEE2491D47A007F38B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFF2BAF12491D47A007F38B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -59,6 +59,10 @@
 		BFF2BB032491D47A007F38B6 /* cartoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cartoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF2BB072491D47A007F38B6 /* cartoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cartoonUITests.swift; sourceTree = "<group>"; };
 		BFF2BB092491D47A007F38B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF2BB64249201A6007F38B6 /* BaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
+		BFF2BB66249201A6007F38B6 /* NaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviController.swift; sourceTree = "<group>"; };
+		BFF2BB68249201A6007F38B6 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		BFF2BB822492042A007F38B6 /* BookrackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookrackVC.swift; sourceTree = "<group>"; };
 		C04471DE89DB340A8855B752 /* Pods-cartoon-cartoonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cartoon-cartoonUITests.debug.xcconfig"; path = "Target Support Files/Pods-cartoon-cartoonUITests/Pods-cartoon-cartoonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB97643FC06877CA55D4A188 /* Pods-cartoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cartoonTests.debug.xcconfig"; path = "Target Support Files/Pods-cartoonTests/Pods-cartoonTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,7 +115,6 @@
 				CB97643FC06877CA55D4A188 /* Pods-cartoonTests.debug.xcconfig */,
 				828D45937D04E46F81671CF7 /* Pods-cartoonTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,9 +143,10 @@
 		BFF2BAE42491D479007F38B6 /* cartoon */ = {
 			isa = PBXGroup;
 			children = (
-				BFF2BAE52491D479007F38B6 /* AppDelegate.swift */,
-				BFF2BAE72491D479007F38B6 /* SceneDelegate.swift */,
-				BFF2BAE92491D479007F38B6 /* ViewController.swift */,
+				BFF2BB152491D906007F38B6 /* API */,
+				BFF2BB162491D928007F38B6 /* Controller */,
+				BFF2BB182491D9B5007F38B6 /* Model */,
+				BFF2BB1A2491D9CD007F38B6 /* Others */,
 				BFF2BAEB2491D479007F38B6 /* Main.storyboard */,
 				BFF2BAEE2491D47A007F38B6 /* Assets.xcassets */,
 				BFF2BAF02491D47A007F38B6 /* LaunchScreen.storyboard */,
@@ -169,6 +173,79 @@
 			path = cartoonUITests;
 			sourceTree = "<group>";
 		};
+		BFF2BB152491D906007F38B6 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		BFF2BB162491D928007F38B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2BB792492042A007F38B6 /* Bookrack */,
+				BFF2BB832492042A007F38B6 /* Community */,
+				BFF2BB852492042B007F38B6 /* Home */,
+				BFF2BB742492042A007F38B6 /* Mine */,
+				BFF2BB5E249201A6007F38B6 /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFF2BB182491D9B5007F38B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BFF2BB1A2491D9CD007F38B6 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2BAE52491D479007F38B6 /* AppDelegate.swift */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		BFF2BB5E249201A6007F38B6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2BB64249201A6007F38B6 /* BaseController.swift */,
+				BFF2BB66249201A6007F38B6 /* NaviController.swift */,
+				BFF2BB68249201A6007F38B6 /* TabBarController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		BFF2BB742492042A007F38B6 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		BFF2BB792492042A007F38B6 /* Bookrack */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2BB822492042A007F38B6 /* BookrackVC.swift */,
+			);
+			path = Bookrack;
+			sourceTree = "<group>";
+		};
+		BFF2BB832492042A007F38B6 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		BFF2BB852492042B007F38B6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -180,7 +257,6 @@
 				BFF2BADE2491D479007F38B6 /* Sources */,
 				BFF2BADF2491D479007F38B6 /* Frameworks */,
 				BFF2BAE02491D479007F38B6 /* Resources */,
-				5A5A71FA6A3DAADC6D9B47C7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,7 +294,6 @@
 				BFF2BAFF2491D47A007F38B6 /* Sources */,
 				BFF2BB002491D47A007F38B6 /* Frameworks */,
 				BFF2BB012491D47A007F38B6 /* Resources */,
-				F3F40F49C3CB197C51B79E8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -323,23 +398,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5A5A71FA6A3DAADC6D9B47C7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cartoon/Pods-cartoon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cartoon/Pods-cartoon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cartoon/Pods-cartoon-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6AE7164AFC45AAFA96B60A48 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -360,23 +418,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F3F40F49C3CB197C51B79E8C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cartoon-cartoonUITests/Pods-cartoon-cartoonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-cartoon-cartoonUITests/Pods-cartoon-cartoonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cartoon-cartoonUITests/Pods-cartoon-cartoonUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FF3855F8BF80E30994B3E3C6 /* [CP] Check Pods Manifest.lock */ = {
@@ -408,9 +449,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFF2BAEA2491D479007F38B6 /* ViewController.swift in Sources */,
+				BFF2BB6D249201A6007F38B6 /* BaseController.swift in Sources */,
+				BFF2BBA72492042B007F38B6 /* BookrackVC.swift in Sources */,
+				BFF2BB6F249201A6007F38B6 /* NaviController.swift in Sources */,
+				BFF2BB71249201A6007F38B6 /* TabBarController.swift in Sources */,
 				BFF2BAE62491D479007F38B6 /* AppDelegate.swift in Sources */,
-				BFF2BAE82491D479007F38B6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,6 +630,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JN56NCL3DF;
 				INFOPLIST_FILE = cartoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -594,7 +638,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jd.zjy.cartoon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -606,6 +650,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JN56NCL3DF;
 				INFOPLIST_FILE = cartoon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -613,7 +658,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jd.zjy.cartoon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
