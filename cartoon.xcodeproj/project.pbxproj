@@ -19,6 +19,15 @@
 		BFF2BB6F249201A6007F38B6 /* NaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BB66249201A6007F38B6 /* NaviController.swift */; };
 		BFF2BB71249201A6007F38B6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BB68249201A6007F38B6 /* TabBarController.swift */; };
 		BFF2BBA72492042B007F38B6 /* BookrackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BB822492042A007F38B6 /* BookrackVC.swift */; };
+		BFF2BC0D24922FF6007F38B6 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BC0424922FF6007F38B6 /* ArrayExtensions.swift */; };
+		BFF2BC0E24922FF6007F38B6 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BC0524922FF6007F38B6 /* UIColorExtension.swift */; };
+		BFF2BC0F24922FF6007F38B6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BC0624922FF6007F38B6 /* UIViewExtension.swift */; };
+		BFF2BC1024922FF6007F38B6 /* UIBarButtonItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BC0724922FF6007F38B6 /* UIBarButtonItemExtension.swift */; };
+		BFF2BC1124922FF6007F38B6 /* UIDeviceExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BC0824922FF6007F38B6 /* UIDeviceExtension.swift */; };
+		BFF2BC1224922FF6007F38B6 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BC0924922FF6007F38B6 /* UIImageExtensions.swift */; };
+		BFF2BC1324922FF6007F38B6 /* DispatchQueueExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BC0A24922FF6007F38B6 /* DispatchQueueExtension.swift */; };
+		BFF2BC1424922FF6007F38B6 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BC0B24922FF6007F38B6 /* StringExtension.swift */; };
+		BFF2BC1524922FF6007F38B6 /* DictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BC0C24922FF6007F38B6 /* DictionaryExtension.swift */; };
 		FF7843D43D6170FDB7D659C4 /* Pods_cartoonTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BFCE321E0D25EAF446DDC2 /* Pods_cartoonTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +72,15 @@
 		BFF2BB66249201A6007F38B6 /* NaviController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviController.swift; sourceTree = "<group>"; };
 		BFF2BB68249201A6007F38B6 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		BFF2BB822492042A007F38B6 /* BookrackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookrackVC.swift; sourceTree = "<group>"; };
+		BFF2BC0424922FF6007F38B6 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		BFF2BC0524922FF6007F38B6 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		BFF2BC0624922FF6007F38B6 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		BFF2BC0724922FF6007F38B6 /* UIBarButtonItemExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIBarButtonItemExtension.swift; sourceTree = "<group>"; };
+		BFF2BC0824922FF6007F38B6 /* UIDeviceExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDeviceExtension.swift; sourceTree = "<group>"; };
+		BFF2BC0924922FF6007F38B6 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		BFF2BC0A24922FF6007F38B6 /* DispatchQueueExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchQueueExtension.swift; sourceTree = "<group>"; };
+		BFF2BC0B24922FF6007F38B6 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		BFF2BC0C24922FF6007F38B6 /* DictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryExtension.swift; sourceTree = "<group>"; };
 		C04471DE89DB340A8855B752 /* Pods-cartoon-cartoonUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cartoon-cartoonUITests.debug.xcconfig"; path = "Target Support Files/Pods-cartoon-cartoonUITests/Pods-cartoon-cartoonUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB97643FC06877CA55D4A188 /* Pods-cartoonTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cartoonTests.debug.xcconfig"; path = "Target Support Files/Pods-cartoonTests/Pods-cartoonTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -144,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				BFF2BB152491D906007F38B6 /* API */,
+				BFF2BBC02492234A007F38B6 /* Common */,
 				BFF2BB162491D928007F38B6 /* Controller */,
 				BFF2BB182491D9B5007F38B6 /* Model */,
 				BFF2BB1A2491D9CD007F38B6 /* Others */,
@@ -244,6 +263,31 @@
 			children = (
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		BFF2BBC02492234A007F38B6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2BC0324922FF6007F38B6 /* Extension */,
+			);
+			name = Common;
+			path = ../../U17/U17/Common;
+			sourceTree = "<group>";
+		};
+		BFF2BC0324922FF6007F38B6 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2BC0424922FF6007F38B6 /* ArrayExtensions.swift */,
+				BFF2BC0524922FF6007F38B6 /* UIColorExtension.swift */,
+				BFF2BC0624922FF6007F38B6 /* UIViewExtension.swift */,
+				BFF2BC0724922FF6007F38B6 /* UIBarButtonItemExtension.swift */,
+				BFF2BC0824922FF6007F38B6 /* UIDeviceExtension.swift */,
+				BFF2BC0924922FF6007F38B6 /* UIImageExtensions.swift */,
+				BFF2BC0A24922FF6007F38B6 /* DispatchQueueExtension.swift */,
+				BFF2BC0B24922FF6007F38B6 /* StringExtension.swift */,
+				BFF2BC0C24922FF6007F38B6 /* DictionaryExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -450,9 +494,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFF2BB6D249201A6007F38B6 /* BaseController.swift in Sources */,
+				BFF2BC1224922FF6007F38B6 /* UIImageExtensions.swift in Sources */,
+				BFF2BC0E24922FF6007F38B6 /* UIColorExtension.swift in Sources */,
+				BFF2BC1024922FF6007F38B6 /* UIBarButtonItemExtension.swift in Sources */,
+				BFF2BC0D24922FF6007F38B6 /* ArrayExtensions.swift in Sources */,
+				BFF2BC1524922FF6007F38B6 /* DictionaryExtension.swift in Sources */,
+				BFF2BC1324922FF6007F38B6 /* DispatchQueueExtension.swift in Sources */,
 				BFF2BBA72492042B007F38B6 /* BookrackVC.swift in Sources */,
+				BFF2BC1124922FF6007F38B6 /* UIDeviceExtension.swift in Sources */,
 				BFF2BB6F249201A6007F38B6 /* NaviController.swift in Sources */,
 				BFF2BB71249201A6007F38B6 /* TabBarController.swift in Sources */,
+				BFF2BC0F24922FF6007F38B6 /* UIViewExtension.swift in Sources */,
+				BFF2BC1424922FF6007F38B6 /* StringExtension.swift in Sources */,
 				BFF2BAE62491D479007F38B6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

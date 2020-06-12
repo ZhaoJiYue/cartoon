@@ -37,30 +37,20 @@ class TabBarController: UITabBarController {
                            selectedImage: UIImage(named: "tab_find_selected"))
         
         
+        //书架
+        let bookSegmentVC = BookrackVC()
+        addChildController(bookSegmentVC,
+                           title: "书架",
+                           image: UIImage(named: "tab_book"),
+                           selectedImage: UIImage(named: "tab_book_selected"))
         
-        // 书架
-        //        let bookSegmentVC = BookrackVC(titles: ["收藏",
-        //                                                "书单",
-        //                                                "历史",
-        //                                                "下载"],
-        //                                            vcs: [HomeVC(),
-        //                                                  HomeVC(),
-        //                                                  HomeVC(),
-        //                                                  HomeVC()],
-        //                                            segmentStyle: .navgationBarSegment)
         
-        //        addChildController(BookrackVC,
-        //                           title: "书架",
-        //                           image: UIImage(named: "tab_book"),
-        //                           selectedImage: UIImage(named: "tab_book_selected"))
-        //
-        //
-        //        // 我的
-        //        let mineVC = MineVC()
-        //        addChildController(mineVC,
-        //                           title: "我的",
-        //                           image: UIImage(named: "tab_mine"),
-        //                           selectedImage: UIImage(named: "tab_mine_selected"))
+        // 我的
+        let mineVC = BookrackVC()
+        addChildController(mineVC,
+                           title: "我的",
+                           image: UIImage(named: "tab_mine"),
+                           selectedImage: UIImage(named: "tab_mine_selected"))
         
     }
     
@@ -76,7 +66,6 @@ class TabBarController: UITabBarController {
         }
         addChild(NaviController(rootViewController: childController))
     }
-    
 }
 
 

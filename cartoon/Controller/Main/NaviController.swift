@@ -97,7 +97,7 @@ extension UINavigationController {
 
         case .white:
             navigationBar.barStyle = .default
-//            navigationBar.setBackgroundImage(UIColor.white.image(), for: .default)
+            navigationBar.setBackgroundImage(UIColor.white.image(), for: .default)
             navigationBar.shadowImage = nil
             navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.black,
                                                  NSAttributedString.Key.font: UIFont.systemFont(ofSize: 18)]
