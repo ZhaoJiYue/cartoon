@@ -6,7 +6,10 @@ target 'cartoon' do
   use_frameworks!
   
   # Pods for cartoon
-  
+  pod 'HandyJSON', '~> 5.0.1'
+  pod 'Then'
+  pod 'EmptyDataSet-Swift', '~> 5.0.0'
+  pod 'MJRefresh'
   
   target 'cartoonTests' do
     inherit! :search_paths

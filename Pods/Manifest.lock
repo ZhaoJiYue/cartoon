@@ -1,3 +1,28 @@
-PODFILE CHECKSUM: 277201e450d4e601624ebe377ab1ea14db50a2d0
+PODS:
+  - EmptyDataSet-Swift (5.0.0)
+  - HandyJSON (5.0.1)
+  - MJRefresh (3.4.3)
+  - Then (2.6.0)
+
+DEPENDENCIES:
+  - EmptyDataSet-Swift (~> 5.0.0)
+  - HandyJSON (~> 5.0.1)
+  - MJRefresh
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - EmptyDataSet-Swift
+    - HandyJSON
+    - MJRefresh
+    - Then
+
+SPEC CHECKSUMS:
+  EmptyDataSet-Swift: eb382c0c87a2d9c678077385a595cec52da38171
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  MJRefresh: 53e3e3219f204425ee6d3e62e8733d3295944cd6
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+
+PODFILE CHECKSUM: cb5d9552ff05ac9327ff3daadeeb11ccd7853da9
 
 COCOAPODS: 1.9.1

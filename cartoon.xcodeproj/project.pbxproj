@@ -3,12 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3C9A6EB243F4E53A7F03A7A2 /* Pods_cartoon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71169B31210CD6EF269D168E /* Pods_cartoon.framework */; };
 		ABE45117F64EEA1C71384BE9 /* Pods_cartoon_cartoonUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36A2DEBD39DF319AB063434D /* Pods_cartoon_cartoonUITests.framework */; };
+		BF15156B2493165F008CF2E9 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15156A2493165F008CF2E9 /* Global.swift */; };
+		BF15156D249316E8008CF2E9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15156C249316E8008CF2E9 /* HomeVC.swift */; };
+		BF15156F24931A52008CF2E9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15156E24931A52008CF2E9 /* Model.swift */; };
+		BF15158C24931DFD008CF2E9 /* UNoticeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15157124931DFC008CF2E9 /* UNoticeBar.swift */; };
+		BF15158D24931DFD008CF2E9 /* UHairPowder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15157324931DFC008CF2E9 /* UHairPowder.swift */; };
+		BF15158E24931DFD008CF2E9 /* UCollectionViewAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15157524931DFC008CF2E9 /* UCollectionViewAlignedLayout.swift */; };
+		BF15158F24931DFD008CF2E9 /* UCollectionViewSectionBackgroundLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15157624931DFC008CF2E9 /* UCollectionViewSectionBackgroundLayout.swift */; };
+		BF15159024931DFD008CF2E9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BF15157824931DFD008CF2E9 /* LICENSE */; };
+		BF15159124931DFD008CF2E9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BF15157924931DFD008CF2E9 /* README.md */; };
+		BF15159224931DFD008CF2E9 /* LLViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15157C24931DFD008CF2E9 /* LLViewExtensions.swift */; };
+		BF15159324931DFD008CF2E9 /* LLPillPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15157D24931DFD008CF2E9 /* LLPillPageControl.swift */; };
+		BF15159424931DFD008CF2E9 /* LLCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15157E24931DFD008CF2E9 /* LLCycleScrollView.swift */; };
+		BF15159524931DFD008CF2E9 /* LLSnakePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15157F24931DFD008CF2E9 /* LLSnakePageControl.swift */; };
+		BF15159624931DFD008CF2E9 /* LLCycleScrollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15158024931DFD008CF2E9 /* LLCycleScrollViewCell.swift */; };
+		BF15159724931DFD008CF2E9 /* LLFilledPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15158124931DFD008CF2E9 /* LLFilledPageControl.swift */; };
+		BF15159824931DFD008CF2E9 /* LLImagePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15158224931DFD008CF2E9 /* LLImagePageControl.swift */; };
+		BF15159924931DFD008CF2E9 /* LLCycleScrollView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BF15158324931DFD008CF2E9 /* LLCycleScrollView.bundle */; };
+		BF15159A24931DFD008CF2E9 /* UEmptyDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15158524931DFD008CF2E9 /* UEmptyDataSet.swift */; };
+		BF15159B24931DFD008CF2E9 /* URefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15158724931DFD008CF2E9 /* URefresh.swift */; };
+		BF15159C24931DFD008CF2E9 /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15158924931DFD008CF2E9 /* ParallaxHeaderMode.swift */; };
+		BF15159D24931DFD008CF2E9 /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15158A24931DFD008CF2E9 /* UIScrollView+ParallaxHeader.swift */; };
+		BF15159E24931DFD008CF2E9 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15158B24931DFD008CF2E9 /* ParallaxHeader.swift */; };
 		BFF2BAE62491D479007F38B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2BAE52491D479007F38B6 /* AppDelegate.swift */; };
 		BFF2BAED2491D479007F38B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF2BAEB2491D479007F38B6 /* Main.storyboard */; };
 		BFF2BAEF2491D47A007F38B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF2BAEE2491D47A007F38B6 /* Assets.xcassets */; };
@@ -56,6 +78,28 @@
 		71169B31210CD6EF269D168E /* Pods_cartoon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cartoon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		828D45937D04E46F81671CF7 /* Pods-cartoonTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cartoonTests.release.xcconfig"; path = "Target Support Files/Pods-cartoonTests/Pods-cartoonTests.release.xcconfig"; sourceTree = "<group>"; };
 		A9BFCE321E0D25EAF446DDC2 /* Pods_cartoonTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cartoonTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF15156A2493165F008CF2E9 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		BF15156C249316E8008CF2E9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BF15156E24931A52008CF2E9 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BF15157124931DFC008CF2E9 /* UNoticeBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNoticeBar.swift; sourceTree = "<group>"; };
+		BF15157324931DFC008CF2E9 /* UHairPowder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UHairPowder.swift; sourceTree = "<group>"; };
+		BF15157524931DFC008CF2E9 /* UCollectionViewAlignedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCollectionViewAlignedLayout.swift; sourceTree = "<group>"; };
+		BF15157624931DFC008CF2E9 /* UCollectionViewSectionBackgroundLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCollectionViewSectionBackgroundLayout.swift; sourceTree = "<group>"; };
+		BF15157824931DFD008CF2E9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BF15157924931DFD008CF2E9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BF15157C24931DFD008CF2E9 /* LLViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLViewExtensions.swift; sourceTree = "<group>"; };
+		BF15157D24931DFD008CF2E9 /* LLPillPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLPillPageControl.swift; sourceTree = "<group>"; };
+		BF15157E24931DFD008CF2E9 /* LLCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCycleScrollView.swift; sourceTree = "<group>"; };
+		BF15157F24931DFD008CF2E9 /* LLSnakePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLSnakePageControl.swift; sourceTree = "<group>"; };
+		BF15158024931DFD008CF2E9 /* LLCycleScrollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCycleScrollViewCell.swift; sourceTree = "<group>"; };
+		BF15158124931DFD008CF2E9 /* LLFilledPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLFilledPageControl.swift; sourceTree = "<group>"; };
+		BF15158224931DFD008CF2E9 /* LLImagePageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLImagePageControl.swift; sourceTree = "<group>"; };
+		BF15158324931DFD008CF2E9 /* LLCycleScrollView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LLCycleScrollView.bundle; sourceTree = "<group>"; };
+		BF15158524931DFD008CF2E9 /* UEmptyDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UEmptyDataSet.swift; sourceTree = "<group>"; };
+		BF15158724931DFD008CF2E9 /* URefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URefresh.swift; sourceTree = "<group>"; };
+		BF15158924931DFD008CF2E9 /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		BF15158A24931DFD008CF2E9 /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		BF15158B24931DFD008CF2E9 /* ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
 		BFF2BAE22491D479007F38B6 /* cartoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cartoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF2BAE52491D479007F38B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF2BAEC2491D479007F38B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -121,6 +165,90 @@
 				A9BFCE321E0D25EAF446DDC2 /* Pods_cartoonTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF15157024931DFC008CF2E9 /* NoticeBar */ = {
+			isa = PBXGroup;
+			children = (
+				BF15157124931DFC008CF2E9 /* UNoticeBar.swift */,
+			);
+			path = NoticeBar;
+			sourceTree = "<group>";
+		};
+		BF15157224931DFC008CF2E9 /* HairPowder */ = {
+			isa = PBXGroup;
+			children = (
+				BF15157324931DFC008CF2E9 /* UHairPowder.swift */,
+			);
+			path = HairPowder;
+			sourceTree = "<group>";
+		};
+		BF15157424931DFC008CF2E9 /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BF15157524931DFC008CF2E9 /* UCollectionViewAlignedLayout.swift */,
+				BF15157624931DFC008CF2E9 /* UCollectionViewSectionBackgroundLayout.swift */,
+			);
+			path = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		BF15157724931DFD008CF2E9 /* LLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BF15157824931DFD008CF2E9 /* LICENSE */,
+				BF15157924931DFD008CF2E9 /* README.md */,
+				BF15157A24931DFD008CF2E9 /* Lib */,
+			);
+			path = LLCycleScrollView;
+			sourceTree = "<group>";
+		};
+		BF15157A24931DFD008CF2E9 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				BF15157B24931DFD008CF2E9 /* LLCycleScrollView */,
+				BF15158324931DFD008CF2E9 /* LLCycleScrollView.bundle */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		BF15157B24931DFD008CF2E9 /* LLCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				BF15157C24931DFD008CF2E9 /* LLViewExtensions.swift */,
+				BF15157D24931DFD008CF2E9 /* LLPillPageControl.swift */,
+				BF15157E24931DFD008CF2E9 /* LLCycleScrollView.swift */,
+				BF15157F24931DFD008CF2E9 /* LLSnakePageControl.swift */,
+				BF15158024931DFD008CF2E9 /* LLCycleScrollViewCell.swift */,
+				BF15158124931DFD008CF2E9 /* LLFilledPageControl.swift */,
+				BF15158224931DFD008CF2E9 /* LLImagePageControl.swift */,
+			);
+			path = LLCycleScrollView;
+			sourceTree = "<group>";
+		};
+		BF15158424931DFD008CF2E9 /* EmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				BF15158524931DFD008CF2E9 /* UEmptyDataSet.swift */,
+			);
+			path = EmptyDataSet;
+			sourceTree = "<group>";
+		};
+		BF15158624931DFD008CF2E9 /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				BF15158724931DFD008CF2E9 /* URefresh.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		BF15158824931DFD008CF2E9 /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				BF15158924931DFD008CF2E9 /* ParallaxHeaderMode.swift */,
+				BF15158A24931DFD008CF2E9 /* UIScrollView+ParallaxHeader.swift */,
+				BF15158B24931DFD008CF2E9 /* ParallaxHeader.swift */,
+			);
+			path = ParallaxHeader;
 			sourceTree = "<group>";
 		};
 		BF70F0F5DA57488171E2F3C2 /* Pods */ = {
@@ -214,6 +342,7 @@
 		BFF2BB182491D9B5007F38B6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF15156E24931A52008CF2E9 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -222,6 +351,7 @@
 			isa = PBXGroup;
 			children = (
 				BFF2BAE52491D479007F38B6 /* AppDelegate.swift */,
+				BF15156A2493165F008CF2E9 /* Global.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -261,6 +391,7 @@
 		BFF2BB852492042B007F38B6 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BF15156C249316E8008CF2E9 /* HomeVC.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -268,6 +399,13 @@
 		BFF2BBC02492234A007F38B6 /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BF15157424931DFC008CF2E9 /* CollectionViewLayout */,
+				BF15158424931DFD008CF2E9 /* EmptyDataSet */,
+				BF15157224931DFC008CF2E9 /* HairPowder */,
+				BF15157724931DFD008CF2E9 /* LLCycleScrollView */,
+				BF15157024931DFC008CF2E9 /* NoticeBar */,
+				BF15158824931DFD008CF2E9 /* ParallaxHeader */,
+				BF15158624931DFD008CF2E9 /* Refresh */,
 				BFF2BC0324922FF6007F38B6 /* Extension */,
 			);
 			name = Common;
@@ -301,6 +439,7 @@
 				BFF2BADE2491D479007F38B6 /* Sources */,
 				BFF2BADF2491D479007F38B6 /* Frameworks */,
 				BFF2BAE02491D479007F38B6 /* Resources */,
+				985D8FFCD96DCBA1D8282915 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -338,6 +477,7 @@
 				BFF2BAFF2491D47A007F38B6 /* Sources */,
 				BFF2BB002491D47A007F38B6 /* Frameworks */,
 				BFF2BB012491D47A007F38B6 /* Resources */,
+				462CB06030972B0EF4818727 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -397,8 +537,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF15159924931DFD008CF2E9 /* LLCycleScrollView.bundle in Resources */,
 				BFF2BAF22491D47A007F38B6 /* LaunchScreen.storyboard in Resources */,
 				BFF2BAEF2491D47A007F38B6 /* Assets.xcassets in Resources */,
+				BF15159124931DFD008CF2E9 /* README.md in Resources */,
+				BF15159024931DFD008CF2E9 /* LICENSE in Resources */,
 				BFF2BAED2491D479007F38B6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +585,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		462CB06030972B0EF4818727 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cartoon-cartoonUITests/Pods-cartoon-cartoonUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cartoon-cartoonUITests/Pods-cartoon-cartoonUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cartoon-cartoonUITests/Pods-cartoon-cartoonUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		6AE7164AFC45AAFA96B60A48 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -462,6 +622,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		985D8FFCD96DCBA1D8282915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cartoon/Pods-cartoon-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cartoon/Pods-cartoon-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cartoon/Pods-cartoon-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FF3855F8BF80E30994B3E3C6 /* [CP] Check Pods Manifest.lock */ = {
@@ -493,18 +670,37 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF15159A24931DFD008CF2E9 /* UEmptyDataSet.swift in Sources */,
 				BFF2BB6D249201A6007F38B6 /* BaseController.swift in Sources */,
 				BFF2BC1224922FF6007F38B6 /* UIImageExtensions.swift in Sources */,
+				BF15159B24931DFD008CF2E9 /* URefresh.swift in Sources */,
 				BFF2BC0E24922FF6007F38B6 /* UIColorExtension.swift in Sources */,
+				BF15158E24931DFD008CF2E9 /* UCollectionViewAlignedLayout.swift in Sources */,
 				BFF2BC1024922FF6007F38B6 /* UIBarButtonItemExtension.swift in Sources */,
+				BF15159D24931DFD008CF2E9 /* UIScrollView+ParallaxHeader.swift in Sources */,
 				BFF2BC0D24922FF6007F38B6 /* ArrayExtensions.swift in Sources */,
+				BF15159624931DFD008CF2E9 /* LLCycleScrollViewCell.swift in Sources */,
+				BF15159524931DFD008CF2E9 /* LLSnakePageControl.swift in Sources */,
+				BF15158C24931DFD008CF2E9 /* UNoticeBar.swift in Sources */,
+				BF15159E24931DFD008CF2E9 /* ParallaxHeader.swift in Sources */,
 				BFF2BC1524922FF6007F38B6 /* DictionaryExtension.swift in Sources */,
+				BF15156D249316E8008CF2E9 /* HomeVC.swift in Sources */,
+				BF15159724931DFD008CF2E9 /* LLFilledPageControl.swift in Sources */,
 				BFF2BC1324922FF6007F38B6 /* DispatchQueueExtension.swift in Sources */,
+				BF15159C24931DFD008CF2E9 /* ParallaxHeaderMode.swift in Sources */,
 				BFF2BBA72492042B007F38B6 /* BookrackVC.swift in Sources */,
+				BF15156B2493165F008CF2E9 /* Global.swift in Sources */,
+				BF15156F24931A52008CF2E9 /* Model.swift in Sources */,
+				BF15159824931DFD008CF2E9 /* LLImagePageControl.swift in Sources */,
 				BFF2BC1124922FF6007F38B6 /* UIDeviceExtension.swift in Sources */,
 				BFF2BB6F249201A6007F38B6 /* NaviController.swift in Sources */,
+				BF15158D24931DFD008CF2E9 /* UHairPowder.swift in Sources */,
 				BFF2BB71249201A6007F38B6 /* TabBarController.swift in Sources */,
 				BFF2BC0F24922FF6007F38B6 /* UIViewExtension.swift in Sources */,
+				BF15159324931DFD008CF2E9 /* LLPillPageControl.swift in Sources */,
+				BF15159224931DFD008CF2E9 /* LLViewExtensions.swift in Sources */,
+				BF15159424931DFD008CF2E9 /* LLCycleScrollView.swift in Sources */,
+				BF15158F24931DFD008CF2E9 /* UCollectionViewSectionBackgroundLayout.swift in Sources */,
 				BFF2BC1424922FF6007F38B6 /* StringExtension.swift in Sources */,
 				BFF2BAE62491D479007F38B6 /* AppDelegate.swift in Sources */,
 			);
