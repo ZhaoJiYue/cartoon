@@ -30,7 +30,7 @@ class TabBarController: UITabBarController {
                            selectedImage: UIImage(named: "tab_today_selected"))
         
         // 发现
-        let homeVC = BookrackVC()
+        let homeVC = HomeVC()
         addChildController(homeVC,
                            title: "发现",
                            image: UIImage(named: "tab_find"),
