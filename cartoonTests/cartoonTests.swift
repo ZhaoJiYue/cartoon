@@ -2,8 +2,8 @@
 //  cartoonTests.swift
 //  cartoonTests
 //
-//  Created by zhaojiyue on 2020/6/11.
-//  Copyright © 2020 zhaojiyue. All rights reserved.
+//  Created by zjy on 2020/6/11.
+//  Copyright © 2020 zjy. All rights reserved.
 //
 
 import XCTest

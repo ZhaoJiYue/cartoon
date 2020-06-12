@@ -2,8 +2,8 @@
 //  Global.swift
 //  cartoon
 //
-//  Created by zhaojiyue on 2020/6/12.
-//  Copyright © 2020 zhaojiyue. All rights reserved.
+//  Created by zjy on 2020/6/12.
+//  Copyright © 2020 zjy. All rights reserved.
 //
 
 import Foundation

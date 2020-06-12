@@ -2,8 +2,8 @@
 //  BoardCollectionViewCell.swift
 //  U17
 //
-//  Created by lyw on 2020/5/15.
-//  Copyright © 2020 胡智钦. All rights reserved.
+//  Created by zjy on 2020/5/15.
+//  Copyright © 2020 zjy. All rights reserved.
 //
 
 import UIKit

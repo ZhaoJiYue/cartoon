@@ -2,8 +2,8 @@
 //  FindNavView.swift
 //  U17
 //
-//  Created by lyw on 2020/5/18.
-//  Copyright © 2020 胡智钦. All rights reserved.
+//  Created by zjy on 2020/5/18.
+//  Copyright © 2020 zjy. All rights reserved.
 //
 
 import UIKit
@@ -21,7 +21,7 @@ class FindNavView: UIView {
         btn.setImage(UIImage(named: "sep_Message_White"), for: .normal)
         return btn
     }()
-
+    
     private lazy var searchBtn: UIButton = {
         let btn = UIButton()
         btn.setImage(UIImage(named: "classify_search_btn"), for: .normal)
@@ -41,7 +41,7 @@ class FindNavView: UIView {
         stackV.distribution = .fillEqually
         return stackV
     }()
-
+    
     private lazy var topBtn: UIButton = {
         let btn = UIButton()
         btn.setImage(UIImage(named: "home_1_default"), for: .normal)
@@ -50,6 +50,7 @@ class FindNavView: UIView {
         btn.titleLabel?.font = .systemFont(ofSize: 14)
         return btn
     }()
+    
     private lazy var VIPBtn: UIButton = {
         let btn = UIButton()
         btn.setImage(UIImage(named: "home_2_default"), for: .normal)
@@ -58,6 +59,7 @@ class FindNavView: UIView {
         btn.titleLabel?.font = .systemFont(ofSize: 14)
         return btn
     }()
+    
     private lazy var subscibeBtn: UIButton = {
         let btn = UIButton()
         btn.setImage(UIImage(named: "home_3_default"), for: .normal)
@@ -66,6 +68,7 @@ class FindNavView: UIView {
         btn.titleLabel?.font = .systemFont(ofSize: 14)
         return btn
     }()
+    
     private lazy var classifyBtn: UIButton = {
         let btn = UIButton()
         btn.setImage(UIImage(named: "home_4_default"), for: .normal)
@@ -74,7 +77,7 @@ class FindNavView: UIView {
         btn.titleLabel?.font = .systemFont(ofSize: 14)
         return btn
     }()
-
+    
     public var defaultSearch: String? {
         didSet {
             if let defaultSearch = defaultSearch {
@@ -85,43 +88,41 @@ class FindNavView: UIView {
     
     private var defaultValue: CGFloat = 0
     private var selfDefaultHeight: CGFloat = 0
-
+    
     public var value: CGFloat? {
         didSet {
             self.layoutIfNeeded()
             
             if let value = value {
-//                print("didSet:", value)
                 if defaultValue == 0 {
                     // 设置默认值
                     defaultValue = value
                     selfDefaultHeight = self.frame.size.height
-//                    print("设置默认值:", defaultValue)
-//                    print("自身高度:", selfDefaultHeight)
+                    
                 } else {
                     var changeValue = (-defaultValue)-(-value)
                     if changeValue < 0 {
                         changeValue = 0
                     }
-
+                    
                     if changeValue >= 0 && changeValue < 105 {
                         self.snp.updateConstraints { (make) in
                             make.height.equalTo(selfDefaultHeight - changeValue/3)
                         }
                     }
-
+                    
                     if changeValue > MaxValue {
                         self.snp.updateConstraints { (make) in
                             make.height.equalTo(selfDefaultHeight - 105/3)
                         }
                         stackView.snp.updateConstraints { (make) in
-                            make.top.equalTo(searchBtn.snp_bottom).offset(10 - 90/2)
+                            make.top.equalTo(searchBtn.snp.bottom).offset(10 - 90/2)
                             make.width.equalTo(screenWidth - 40 - MaxValue)
                         }
-
+                        
                         changeValue = MaxValue
                     }
-
+                    
                     if changeValue > 100 {
                         searchBtn.backgroundColor = UIColor.init(red: 236/255, green: 236/255, blue: 236/255, alpha: changeValue/100)
                         msgBtn.setImage(UIImage(named: "sep_Message_Bubble"), for: .normal)
@@ -140,7 +141,7 @@ class FindNavView: UIView {
                         VIPBtn.setImage(UIImage(named: "home_2_default"), for: .normal)
                         subscibeBtn.setImage(UIImage(named: "home_3_default"), for: .normal)
                         classifyBtn.setImage(UIImage(named: "home_4_default"), for: .normal)
-
+                        
                     } else {
                         topBtn.setTitle("", for: .normal)
                         VIPBtn.setTitle("", for: .normal)
@@ -153,19 +154,18 @@ class FindNavView: UIView {
                         classifyBtn.setImage(UIImage(named: "home_4"), for: .normal)
                     }
                     
-                    
                     if changeValue >= 0 && changeValue <= 90.0 {
                         stackView.snp.updateConstraints { (make) in
-                            make.top.equalTo(searchBtn.snp_bottom).offset(10 - changeValue/2)
+                            make.top.equalTo(searchBtn.snp.bottom).offset(10 - changeValue/2)
                             make.width.equalTo(screenWidth - 40 - changeValue)
                         }
                     } else if changeValue >= 0 && changeValue <= MaxValue {
                         stackView.snp.updateConstraints { (make) in
-                            make.top.equalTo(searchBtn.snp_bottom).offset(10 - (90/2))
+                            make.top.equalTo(searchBtn.snp.bottom).offset(10 - (90/2))
                             make.width.equalTo(screenWidth - 40 - changeValue)
                         }
                     }
-
+                    
                     if value > defaultValue {
                         // 往上推
                         self.backgroundColor = UIColor.init(red: 1, green: 1, blue: 1, alpha: changeValue/100)
@@ -176,6 +176,7 @@ class FindNavView: UIView {
                             })
                         }
                     }
+                    
                     if value <= defaultValue {
                         // 往下推
                         self.backgroundColor = UIColor.init(red: 1, green: 1, blue: 1, alpha: changeValue/100)
@@ -188,13 +189,11 @@ class FindNavView: UIView {
                             make.width.equalTo(width)
                         })
                     }
-
                 }
             }
         }
-
     }
-
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         setupLayout()
@@ -220,10 +219,9 @@ class FindNavView: UIView {
             make.width.equalTo(screenWidth - 85)
         }
         
-
         addSubview(stackView)
         stackView.snp.makeConstraints { (make) in
-            make.top.equalTo(searchBtn.snp_bottom).offset(10)
+            make.top.equalTo(searchBtn.snp.bottom).offset(10)
             make.right.equalTo(-20)
             make.height.equalTo(35)
             make.width.equalTo(screenWidth - 40)
@@ -232,6 +230,6 @@ class FindNavView: UIView {
         stackView.addArrangedSubview(VIPBtn)
         stackView.addArrangedSubview(subscibeBtn)
         stackView.addArrangedSubview(classifyBtn)
-
+        
     }
 }
