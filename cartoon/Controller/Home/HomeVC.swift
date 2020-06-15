@@ -32,7 +32,6 @@ class HomeVC: BaseController {
         cycleScrollView.customPageControlStyle = .image
         cycleScrollView.pageControlPosition = .left
         cycleScrollView.pageControlInActiveImage = UIImage(named: "finishobj")
-        
         // 点击 item 回调
         cycleScrollView.lldidSelectItemAtIndex = didSelectBanner(index:)
         return cycleScrollView
@@ -127,12 +126,10 @@ class HomeVC: BaseController {
         }
         
         view.addSubview(navView)
-        
         navView.snp.makeConstraints{ make in
             make.top.left.right.equalToSuperview()
             make.height.equalTo(120)
         }
-        
     }
 }
 
